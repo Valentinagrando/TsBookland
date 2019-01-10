@@ -1,0 +1,168 @@
+body {
+  background-color: #ffebcd;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Times;
+}
+
+p{
+  font-family: Times;
+}
+
+.ratingtable {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+
+}
+
+th, td{
+  font-size: 17px;
+  text-align: center;
+  border: 2px solid #cd853f;
+  padding: 12px;
+}
+
+tr:nth-child(even){
+  background-color: rgba(205,133,63,0.7);
+}
+
+div.header {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.75;
+  padding: 16px;
+  color: #8b7765;
+}
+
+.btn{
+  margin: 10px;
+  color: #8b4513;
+}
+
+.btn:hover{
+  background-color: #8b4513;
+  opacity: 0.75;
+  padding: 10px;
+  color: white;
+}
+
+.btn:active{
+  color: #ffa500;
+  text-decoration:none;
+}
+
+.btn:visited , .btn:link{
+  text-decoration:none;
+}
+
+.main{
+  background-image: url("https://pbs.twimg.com/media/CnZ06FYUMAEv19e.jpg");
+  padding: 50px 100px;
+}
+.main p, .main h4{
+  font-size: 19px;
+  background-color: #f4a460;
+  opacity: 0.90;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  color: #f4a460;
+
+}
+
+h2{
+  color: #8b4513;
+  opacity: 0.75;
+}
+
+.footer{
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+  background-color:#8b4513;
+  opacity: 0.75;
+  width: 100%;
+}
+
+div.author , div.footerlinks, div.upbutton, .footerlinks a{
+  display: inline;
+  padding: 10px;
+}
+
+.author p{
+  display: inline;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  color: #f5f5dc;
+}
+
+.footer .footerlinks{
+  text-align: right;
+  font-size: 17px;
+}
+
+.footer .upbutton{
+  text-align: center;
+  font-size: 17px;
+}
+
+.footer .btn{
+  color: white;
+}
+
+.fav1, .fav2, .fav3{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.fav1 p, .fav2 p, .fav3 p{
+  background-color: rgba(205,133,63,0.7);
+  border-style: dotted;
+  border-color: #f4a460;
+}
+
+.favorites{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 100px;
+}
+
+.description{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 30px;
+  margin: 30px;
+  color: white;
+  background-color: rgba(205,133,63,0.7);
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.description p{
+  color: Black;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.description h1, .description h2{
+  color: #8b4513;
+  opacity: 0.75;
+  text-align: left;
+}
